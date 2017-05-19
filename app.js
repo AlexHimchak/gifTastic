@@ -1,4 +1,4 @@
-      var movies = ["The Matrix", "The Notebook", "Mr. Nobody", "The Lion King", "Teenage Mutant Ninja Turtles", "Pulp Fiction"];
+      var movies = ["Fast And The Furious", "The Notebook", "Snakes On A Plane", "The Lion King", "Teenage Mutant Ninja Turtles", "Pulp Fiction"];
 
 
       function displayMovieInfo() {
@@ -57,8 +57,12 @@
           event.preventDefault();
 
           var movie = $("#movie-input").val().trim();
+          console.log(movie);
+        if (movie != ""){
+          
 
           movies.push(movie);
+        }
 
           renderButtons();
       });

@@ -1,4 +1,17 @@
-.button {
-    background-color: red;
+button{
+    background-color: aqua;
     font-size: 100%;
+}
+html {
+    background: url("https://ak6.picdn.net/shutterstock/videos/14017838/thumb/1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#movies-view, #buttons-view,#movie-form,{
+
+}
+h1{
+	text-align: center;
 }
